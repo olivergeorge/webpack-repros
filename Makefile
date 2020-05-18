@@ -5,9 +5,6 @@ clean:
 setup:
 	yarn
 
-repl:
-	clj -m cljs.main -co build.edn -v -c -r
-
 simple:
 	clj -m cljs.main -co build.edn -O simple -v -c
 
